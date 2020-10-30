@@ -1,0 +1,248 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Grande";
+
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 64px;
+  padding: 0 ;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+  background-color: #555;
+  opacity: 0.7;
+}
+
+.logo {
+margin-left: 64px;
+font-size: 18px;
+font-family: arial;
+color: #fff ;
+
+font-weight: 700;
+}
+
+.menu {
+  margin-right: 64px;
+  font-family: arial;
+  font-size: 24px;
+  font-weight: 700;
+
+}
+
+.menu a {
+  padding: 0 12px;
+  color: #fff;
+
+  transition: 0.2s;
+}
+
+.menu a:hover {
+  color: black;
+  text-decoration: underline;
+
+}
+
+.top-wrapper {
+  width: 100%;
+  height: 770px;
+
+  position: relative;
+
+}
+
+.top-wrapper img{
+  width: 100%;
+  height: auto;
+  opacity: 90%;
+  position: absolute;
+}
+
+.top-content {
+  width: 30%;
+  height: 256px;
+  position: absolute;
+  margin: 256px auto auto 200px;
+  padding: 0px 24px;
+
+}
+
+.top-content h1 {
+  color: #fff;
+  font-family:sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  opacity: 80%;
+}
+
+.top-content h2 {
+  font-family: serif;
+  font-size: 22px;
+  font-weight: lighter;
+  color: #fff;
+  opacity: 80%;
+  margin-bottom: 12px;
+  padding: 0px;
+}
+
+.top-content p {
+  font-size: 18px;
+  color: #fff;
+  opacity: 80%;
+  margin: 0;
+  padding: 0px;
+}
+
+.top-content a {
+  margin-top: 12px;
+  font-size: 24px;
+  padding: 12px 24px;
+  background-color: #fff;
+  color: #555;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.top-content a:hover {
+  opacity: 1;
+}
+
+.main-wrapper {
+
+  height: 500px;
+  margin-top: 24px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+.main-content{
+  width: 25%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.main-content img{
+  width: 60%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.main-content a {
+  width: 256px;
+  margin-top: 16px;
+  font-size: 24px;
+  padding: 12px 24px;
+  background-color: grey;
+  color: #000;
+  text-align: center;
+  box-shadow: 0 4px #555;
+  opacity: 0.8;
+  border-radius: 4px;
+  transition: 0.2s;
+}
+
+.main-content a:active {
+  position: relative;
+  top: 4px;
+  box-shadow: none;
+}
+
+.main-content a:hover {
+  opacity: 1;
+}
+
+.message-wrapper {
+  width: 100%;
+  background-color: black;
+
+
+}
+
+.msg-container {
+  width: 25%;
+  align-items:center;
+  justify-content:center;
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 512px;
+}
+
+.btn {
+  width: 128px;
+  margin-top: 8px;
+  margin-bottom: 24px;
+  margin-left: 100px;
+  font-size: 24px;
+  padding: 4px 16px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  box-shadow: 0 4px grey;
+  opacity: 0.8;
+  border-radius: 4px;
+  transition: 0.2s;
+}
+
+.btn:active {
+  position: relative;
+  top: 4px;
+  box-shadow: none;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.message p {
+  font-size: 24px;
+  color: white;
+}
+
+.message p input {
+  width: 245px;
+  height: 32px;
+}
+.message-text {
+  width: 245px;
+  height: 128px;
+}
+.message-p {
+  align-items: center;
+  justify-content: center;
+}
+
+footer p {
+
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 30px;
+  align-items: center;
+  justify-content: center;
+}
